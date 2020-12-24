@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_5552"
+    tools:context=".Time">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="448dp"
+        android:layout_height="193dp"
+        app:srcCompat="@drawable/timer"
+        tools:layout_editor_absoluteX="-19dp"
+        tools:layout_editor_absoluteY="-19dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="537dp"
+        android:layout_height="205dp"
+        app:srcCompat="@drawable/car_1"
+        tools:layout_editor_absoluteX="-49dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="434dp"
+        android:layout_height="229dp"
+        app:srcCompat="@drawable/shadow_1"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bg"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="663dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/button"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="334dp"
+        android:layout_height="66dp"
+        android:text="Button"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:text="Cancel"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="683dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        android:text="Button"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="661dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="414dp"
+        android:layout_height="199dp"
+        app:srcCompat="@drawable/shadow_1"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:text="00:00:00"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="410dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
